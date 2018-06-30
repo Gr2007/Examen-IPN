@@ -83,7 +83,7 @@ namespace Examen
             }
 
 
-            label1.Text = name + "\nAciertos: " + correctas + "\t Calificación: " + correctas/9 + "\n"+
+            label1.Text = name + "\nAciertos: " + correctas + "\t Calificación: " + (correctas*10)/9 + "\n"+
                 agregado1[0]+agregado1[1]+agregado1[2]+
                 agregado2[0] + agregado2[1] + agregado2[2] +
                 agregado3[0] + agregado3[1] + agregado3[2] ;
